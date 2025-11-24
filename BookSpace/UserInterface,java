@@ -1,0 +1,9 @@
+/**
+ * Interface yang mendefinisikan kontrak dasar perilaku pengguna.
+ * Mewajibkan implementasi metode akses kredensial dan tampilan menu.
+ */
+interface UserInterface {
+    String getUsername();
+    String getPassword();
+    void displayMenu();
+}
